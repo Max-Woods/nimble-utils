@@ -4,6 +4,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <!-- ================================================== -->
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License Version 3</name>
+            <url>http://www.gnu.org/licenses/lgpl.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <!-- ================================================== -->
+    <scm>
+        <tag>master</tag>
+        <url>https://github.com/Max-Woods/nimble-utils.git</url>
+        <connection>scm:git:https://github.com/Max-Woods/nimble-utils.git</connection>
+        <developerConnection>scm:https://github.com/Max-Woods/nimble-utils.git</developerConnection>
+    </scm>
+    <!-- ================================================== -->
     <parent>
     <groupId>net.maxwoods</groupId>
     <artifactId>nimble-starter-parent</artifactId>
