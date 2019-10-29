@@ -17,11 +17,11 @@ public class DateUtilsTest {
     {
         LocalDateTime currentTime = LocalDateTime.now();
         logger.info("current time is:{}",currentTime);
-        ZoneId utcZoneId = ZoneId.of("UTC");
+        ZoneId utcZoneId = ZoneId.of("Asia/Shanghai");
         logger.info("uct zone id:{}",utcZoneId);
         logger.info("local time:{}",Instant.now().atZone(utcZoneId).toLocalDateTime());
         logger.info("local to utc:{}",currentTime.atZone(utcZoneId).toLocalDateTime());
-        Date date=Date.from(currentTime.atZone(utcZoneId).toInstant());
+        Date date=Date.from(currentTime.atZone(ZoneId.of("UTC")).toInstant());
         logger.info("uct is:{}",date);
         ZonedDateTime zonedDateTime=ZonedDateTime.now();
         logger.info("zoned date time:{}",zonedDateTime);
