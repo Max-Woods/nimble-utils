@@ -5,7 +5,6 @@ import org.apache.commons.codec.binary.Base64;
 import java.io.UnsupportedEncodingException;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
-//
 public class Base64Utils extends Base64 {
 
     public static String encodeBase64String(String data) {
