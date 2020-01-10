@@ -13,7 +13,7 @@ public class Base64Utils extends Base64 {
             return Base64.encodeBase64String(data.getBytes(UTF_8));
 
     }
-
+//
     public static String decodeBase64String(String data) throws UnsupportedEncodingException {
         return new String(Base64.decodeBase64(data), UTF_8);
     }
