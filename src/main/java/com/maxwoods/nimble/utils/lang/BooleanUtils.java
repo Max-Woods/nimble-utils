@@ -1,5 +1,6 @@
 package com.maxwoods.nimble.utils.lang;
 
+//
 public class BooleanUtils {
 
 	String[] trueStrings={"1","y","t","true","yes","是","真","对"};
